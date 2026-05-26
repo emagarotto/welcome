@@ -77,6 +77,12 @@ export default function Hero() {
               >
                 See projects
               </a>
+              <a
+                href="#stack"
+                className="inline-flex items-center gap-2 bg-white text-stone-700 border border-stone-200 px-5 py-2.5 rounded-xl text-sm font-medium hover:border-stone-400 hover:text-stone-900 transition-all duration-200 shadow-sm"
+              >
+                See stack
+              </a>
             </div>
 
             <div className="flex flex-wrap items-center gap-5 pt-4 border-t border-stone-100">
