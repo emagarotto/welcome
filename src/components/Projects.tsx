@@ -38,7 +38,7 @@ const repos = [
     stars: 0,
     forks: 0,
     language: "TypeScript",
-    url: "https://github.com/emagarotto/Ask-Alix-Project-ReadMe",
+    url: "https://github.com/emagarotto/Alix-Project-ReadMe",
     tag: "AI Agents",
   },
   {
