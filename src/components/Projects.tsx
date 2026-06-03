@@ -92,7 +92,7 @@ export default function Projects() {
             Selected Work
           </p>
           <h2 className="text-3xl lg:text-4xl font-light text-stone-900 tracking-tight">
-            Projects &amp; <span className="font-semibold">Repositories</span>
+            <span className="font-semibold">Projects &amp; Repositories</span>
           </h2>
           <p className="mt-3 text-stone-500 max-w-xl">
             A curated selection of production-grade projects spanning SaaS platforms, AI tooling, and open-source resources.

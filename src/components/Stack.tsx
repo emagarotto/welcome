@@ -114,7 +114,7 @@ export default function Stack() {
             Tools &amp; Platforms
           </p>
           <h2 className="text-3xl lg:text-4xl font-light text-stone-900 tracking-tight">
-            Agentic Coding <span className="font-semibold">Stack</span>
+            <span className="font-semibold">Agentic Coding Stack</span>
           </h2>
           <p className="mt-3 text-stone-500 max-w-xl">
             A deliberate, end-to-end toolkit for building, shipping, and scaling AI-native products.
