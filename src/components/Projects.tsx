@@ -64,7 +64,7 @@ const repos = [
   {
     name: "AI Skills Library",
     description:
-      "An AI agent built for the full UX lifecycle: strategy, discovery, research, and prototyping, so nothing falls through the cracks.",
+      "A collection of reusable AI skills for Claude, ChatGPT, GitHub Copilot, and Gemini.",
     stars: 0,
     forks: 0,
     language: "TypeScript",
