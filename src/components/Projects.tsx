@@ -52,16 +52,6 @@ const repos = [
     tag: "SaaS",
   },
   {
-    name: "AI Skills Library",
-    description:
-      "An AI agent built for the full UX lifecycle: strategy, discovery, research, and prototyping, so nothing falls through the cracks.",
-    stars: 0,
-    forks: 0,
-    language: "TypeScript",
-    url: "https://github.com/emagarotto/Ask-Alix-Project-ReadMe",
-    tag: "AI Agents",
-  },
-  {
     name: "AI Native Design Patterns",
     description:
       "Documentation and patterns for AI-native product design - a framework for building products that are designed for AI from the ground up.",
@@ -70,6 +60,16 @@ const repos = [
     language: null,
     url: "https://github.com/emagarotto/AI-Native-Design-Patterns-ReadMe",
     tag: "Design Systems",
+  },
+  {
+    name: "AI Skills Library",
+    description:
+      "An AI agent built for the full UX lifecycle: strategy, discovery, research, and prototyping, so nothing falls through the cracks.",
+    stars: 0,
+    forks: 0,
+    language: "TypeScript",
+    url: "https://github.com/emagarotto/Ask-Alix-Project-ReadMe",
+    tag: "AI Agents",
   },
 ];
 
