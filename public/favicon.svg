@@ -2,97 +2,53 @@
   <rect width="64" height="64" rx="14" fill="#1c1917"/>
 
   <!--
-    Both E and M are built from the same unit block: 4×4 px rectangles on a 5px grid.
-    Canvas is divided into two 24px columns (left: E, right: M) with 4px gap in center.
-    Grid origin: x=4, y=8. Each cell is 5px. Letters span 4 cols × 10 rows.
+    M built from identical 4×4 px blocks on a 5px grid.
+    5 columns wide, 10 rows tall, centered in 64px canvas.
+    Origin: x=7, y=7. Column offsets: 0,10,20,30,40 → x=7,17,27,37,47
+
+    Row 0: 1 . . . 1
+    Row 1: 1 1 . 1 1
+    Row 2: 1 . 1 . 1   ← amber (peak)
+    Row 3: 1 . . . 1
+    Row 4: 1 . . . 1
+    Row 5: 1 . . . 1
+    Row 6: 1 . . . 1
+    Row 7: 1 . . . 1
+    Row 8: 1 . . . 1
+    Row 9: 1 . . . 1
   -->
 
-  <!-- E: col 0-3, row 0-9. Pixel map:
-    Row 0: 1111
-    Row 1: 1000
-    Row 2: 1000
-    Row 3: 1000
-    Row 4: 1110
-    Row 5: 1000
-    Row 6: 1000
-    Row 7: 1000
-    Row 8: 1000
-    Row 9: 1111
-    Middle row highlighted amber
-  -->
   <!-- Row 0 -->
-  <rect x="4"  y="8"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="9"  y="8"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="14" y="8"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="19" y="8"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="7"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="7"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 1 -->
-  <rect x="4"  y="13" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 2 -->
-  <rect x="4"  y="18" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 3 -->
-  <rect x="4"  y="23" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 4 (middle — amber) -->
-  <rect x="4"  y="28" width="4" height="4" rx="0.5" fill="#d97706"/>
-  <rect x="9"  y="28" width="4" height="4" rx="0.5" fill="#d97706"/>
-  <rect x="14" y="28" width="4" height="4" rx="0.5" fill="#d97706"/>
-  <!-- Row 5 -->
-  <rect x="4"  y="33" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 6 -->
-  <rect x="4"  y="38" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 7 -->
-  <rect x="4"  y="43" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 8 -->
-  <rect x="4"  y="48" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 9 -->
-  <rect x="4"  y="53" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="9"  y="53" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="14" y="53" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="19" y="53" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-
-  <!--
-    M: col 0-4, row 0-9. Origin x=36. Pixel map (5 cols):
-    Row 0: 10001
-    Row 1: 11011
-    Row 2: 10101  ← amber peak row
-    Row 3: 10001
-    Row 4: 10001
-    Row 5: 10001
-    Row 6: 10001
-    Row 7: 10001
-    Row 8: 10001
-    Row 9: 10001
-  -->
-  <!-- Row 0 -->
-  <rect x="36" y="8"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="8"  width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <!-- Row 1 -->
-  <rect x="36" y="13" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="41" y="13" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="51" y="13" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="13" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="12" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="17" y="12" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="37" y="12" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="12" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 2 (peak — amber) -->
-  <rect x="36" y="18" width="4" height="4" rx="0.5" fill="#d97706"/>
-  <rect x="46" y="18" width="4" height="4" rx="0.5" fill="#d97706"/>
-  <rect x="56" y="18" width="4" height="4" rx="0.5" fill="#d97706"/>
+  <rect x="7"  y="17" width="4" height="4" rx="0.5" fill="#d97706"/>
+  <rect x="27" y="17" width="4" height="4" rx="0.5" fill="#d97706"/>
+  <rect x="47" y="17" width="4" height="4" rx="0.5" fill="#d97706"/>
   <!-- Row 3 -->
-  <rect x="36" y="23" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="23" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="22" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="22" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 4 -->
-  <rect x="36" y="28" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="28" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="27" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="27" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 5 -->
-  <rect x="36" y="33" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="33" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="32" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="32" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 6 -->
-  <rect x="36" y="38" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="38" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="37" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="37" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 7 -->
-  <rect x="36" y="43" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="43" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="42" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="42" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 8 -->
-  <rect x="36" y="48" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="48" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="47" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="47" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
   <!-- Row 9 -->
-  <rect x="36" y="53" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
-  <rect x="56" y="53" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="7"  y="52" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
+  <rect x="47" y="52" width="4" height="4" rx="0.5" fill="#f5f0eb"/>
 </svg>
