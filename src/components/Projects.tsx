@@ -22,7 +22,7 @@ const repos = [
     tag: "UX Research",
   },
   {
-    name: "Sprint-Bot",
+    name: "Sprint Bot",
     description:
       "Platform offering 27 production-ready AI agents automating the UX/UCD process from discovery through validation with plug-and-play Claude Skills, Gemini Gems, or ChatGPTs.",
     stars: 0,
