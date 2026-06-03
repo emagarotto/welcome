@@ -32,7 +32,7 @@ const repos = [
     tag: "AI Agents",
   },
   {
-    name: "AI Skills Library",
+    name: "Alix",
     description:
       "An AI agent built for the full UX lifecycle: strategy, discovery, research, and prototyping, so nothing falls through the cracks.",
     stars: 0,
@@ -52,7 +52,7 @@ const repos = [
     tag: "SaaS",
   },
   {
-    name: "Alix",
+    name: "AI Skills Library",
     description:
       "An AI agent built for the full UX lifecycle: strategy, discovery, research, and prototyping, so nothing falls through the cracks.",
     stars: 0,
