@@ -1,4 +1,4 @@
-import { Star, GitFork, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const repos = [
   {
@@ -54,7 +54,7 @@ const repos = [
   {
     name: "AI Native Design Patterns",
     description:
-      "Documentation and patterns for AI-native product design - a framework for building products that are designed for AI from the ground up.",
+      "180 interactive AI design patterns across 18 industries. All free. So you do not have to start from scratch.",
     stars: 0,
     forks: 0,
     language: null,
@@ -133,21 +133,7 @@ export default function Projects() {
               </p>
 
               {/* Footer */}
-              <div className="flex items-center gap-4 mt-5 pt-4 border-t border-stone-100">
-                {repo.language && (
-                  <span className="text-xs text-stone-400 font-medium">{repo.language}</span>
-                )}
-                <div className="flex items-center gap-3 ml-auto">
-                  <span className="flex items-center gap-1 text-xs text-stone-400">
-                    <Star size={12} />
-                    {repo.stars}
-                  </span>
-                  <span className="flex items-center gap-1 text-xs text-stone-400">
-                    <GitFork size={12} />
-                    {repo.forks}
-                  </span>
-                </div>
-              </div>
+              <div className="mt-5 pt-4 border-t border-stone-100" />
             </a>
           ))}
         </div>
