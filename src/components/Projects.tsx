@@ -9,7 +9,7 @@ const repos = [
     forks: 0,
     language: "TypeScript",
     url: "https://github.com/emagarotto/Scanably-Project-ReadMe",
-    tag: "AI Tools",
+    tag: "SEO, AEO, GEO, AIO",
   },
   {
     name: "Participant Forge",
@@ -67,7 +67,7 @@ const tagColors: Record<string, string> = {
   "Open Source": "bg-emerald-50 text-emerald-700 border-emerald-200",
   "AI Agents": "bg-blue-50 text-blue-700 border-blue-200",
   SaaS: "bg-amber-50 text-amber-700 border-amber-200",
-  "AI Tools": "bg-teal-50 text-teal-700 border-teal-200",
+  "SEO, AEO, GEO, AIO": "bg-teal-50 text-teal-700 border-teal-200",
   "UX Research": "bg-rose-50 text-rose-700 border-rose-200",
   "Design Systems": "bg-stone-100 text-stone-600 border-stone-200",
 };
