@@ -32,14 +32,14 @@ const repos = [
     tag: "AI Agents",
   },
   {
-    name: "ai-skills-library",
+    name: "AI Skills Library",
     description:
-      "A collection of reusable AI skills for Claude, ChatGPT, GitHub Copilot, and Gemini. Each skill folder contains platform-specific versions of the same skill.",
-    stars: 3,
-    forks: 1,
-    language: null,
-    url: "https://github.com/emagarotto/ai-skills-library",
-    tag: "Open Source",
+      "An AI agent built for the full UX lifecycle: strategy, discovery, research, and prototyping, so nothing falls through the cracks.",
+    stars: 0,
+    forks: 0,
+    language: "TypeScript",
+    url: "https://github.com/emagarotto/Ask-Alix-Project-ReadMe",
+    tag: "AI Agents",
   },
   {
     name: "Patterine",
@@ -50,16 +50,6 @@ const repos = [
     language: "TypeScript",
     url: "https://github.com/emagarotto/Patterine-Project-ReadMe",
     tag: "SaaS",
-  },
-  {
-    name: "Alix",
-    description:
-      "An AI agent built for the full UX lifecycle: strategy, discovery, research, and prototyping, so nothing falls through the cracks.",
-    stars: 0,
-    forks: 0,
-    language: "TypeScript",
-    url: "https://github.com/emagarotto/Ask-Alix-Project-ReadMe",
-    tag: "AI Agents",
   },
   {
     name: "AI Native Design Patterns",
