@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Favicon Options</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f4f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 24px;
+      gap: 48px;
+    }
+    h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #78716c; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      max-width: 720px;
+      width: 100%;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 32px 24px 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.04);
+    }
+    .sizes {
+      display: flex;
+      align-items: flex-end;
+      gap: 16px;
+    }
+    .label {
+      font-size: 11px;
+      color: #a8a29e;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+    }
+    .name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #1c1917;
+      letter-spacing: -0.01em;
+    }
+    .desc {
+      font-size: 11px;
+      color: #a8a29e;
+      text-align: center;
+      line-height: 1.5;
+    }
+    /* browser chrome mockup */
+    .tab-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #e8e6e1;
+      border-radius: 8px 8px 0 0;
+      padding: 6px 10px 4px;
+      font-size: 10px;
+      color: #57534e;
+      border-bottom: 1px solid #d6d3cd;
+      width: 100%;
+    }
+    .tab-bar svg { flex-shrink: 0; }
+  </style>
+</head>
+<body>
+
+<h1>Favicon Options — Pick One</h1>
+
+<div class="grid">
+
+  <!-- 1: Dark square, geometric M blocks -->
+  <div class="card">
+    <div class="tab-bar">
+      <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="14" fill="#1c1917"/>
+        <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+      </svg>
+      <span>Ezio Magarotto</span>
+    </div>
+    <div class="sizes">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="48" height="48" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+        </svg>
+        <span class="label">48px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+        </svg>
+        <span class="label">32px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="16" height="16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+        </svg>
+        <span class="label">16px</span>
+      </div>
+    </div>
+    <span class="name">1 — Dark Stone</span>
+    <span class="desc">Dark charcoal square, crisp white-warm serif M. Clean and minimal.</span>
+  </div>
+
+  <!-- 2: Amber bg, dark M -->
+  <div class="card">
+    <div class="tab-bar">
+      <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="14" fill="#d97706"/>
+        <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+      </svg>
+      <span>Ezio Magarotto</span>
+    </div>
+    <div class="sizes">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="48" height="48" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#d97706"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+        </svg>
+        <span class="label">48px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#d97706"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+        </svg>
+        <span class="label">32px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="16" height="16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#d97706"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+        </svg>
+        <span class="label">16px</span>
+      </div>
+    </div>
+    <span class="name">2 — Amber Gold</span>
+    <span class="desc">Warm amber background with dark M. Matches the site's accent color.</span>
+  </div>
+
+  <!-- 3: White / outlined -->
+  <div class="card">
+    <div class="tab-bar">
+      <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="14" fill="#ffffff" stroke="#e7e5e0" stroke-width="3"/>
+        <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+      </svg>
+      <span>Ezio Magarotto</span>
+    </div>
+    <div class="sizes">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="48" height="48" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#ffffff" stroke="#e7e5e0" stroke-width="3"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+        </svg>
+        <span class="label">48px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#ffffff" stroke="#e7e5e0" stroke-width="3"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+        </svg>
+        <span class="label">32px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="16" height="16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#ffffff" stroke="#e7e5e0" stroke-width="3"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#1c1917">M</text>
+        </svg>
+        <span class="label">16px</span>
+      </div>
+    </div>
+    <span class="name">3 — White Outlined</span>
+    <span class="desc">Light background with a subtle border. Elegant and unobtrusive.</span>
+  </div>
+
+  <!-- 4: Dark + amber underline accent -->
+  <div class="card">
+    <div class="tab-bar">
+      <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="14" fill="#1c1917"/>
+        <text x="32" y="43" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="34" fill="#f5f0eb">M</text>
+        <rect x="18" y="52" width="28" height="4" rx="2" fill="#d97706"/>
+      </svg>
+      <span>Ezio Magarotto</span>
+    </div>
+    <div class="sizes">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="48" height="48" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <text x="32" y="43" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="34" fill="#f5f0eb">M</text>
+          <rect x="18" y="52" width="28" height="4" rx="2" fill="#d97706"/>
+        </svg>
+        <span class="label">48px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <text x="32" y="43" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="34" fill="#f5f0eb">M</text>
+          <rect x="18" y="52" width="28" height="4" rx="2" fill="#d97706"/>
+        </svg>
+        <span class="label">32px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="16" height="16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <text x="32" y="43" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="34" fill="#f5f0eb">M</text>
+          <rect x="18" y="52" width="28" height="4" rx="2" fill="#d97706"/>
+        </svg>
+        <span class="label">16px</span>
+      </div>
+    </div>
+    <span class="name">4 — Dark + Amber Underline</span>
+    <span class="desc">Dark square with a glowing amber bar beneath the M — subtle brand accent.</span>
+  </div>
+
+  <!-- 5: Split diagonal two-tone -->
+  <div class="card">
+    <div class="tab-bar">
+      <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <clipPath id="sq5a"><rect width="64" height="64" rx="14"/></clipPath>
+        <rect width="64" height="64" rx="14" fill="#1c1917"/>
+        <polygon points="0,64 64,0 64,64" fill="#292524" clip-path="url(#sq5a)"/>
+        <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+      </svg>
+      <span>Ezio Magarotto</span>
+    </div>
+    <div class="sizes">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="48" height="48" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <clipPath id="sq5b"><rect width="64" height="64" rx="14"/></clipPath>
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <polygon points="0,64 64,0 64,64" fill="#292524" clip-path="url(#sq5b)"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+        </svg>
+        <span class="label">48px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <clipPath id="sq5c"><rect width="64" height="64" rx="14"/></clipPath>
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <polygon points="0,64 64,0 64,64" fill="#292524" clip-path="url(#sq5c)"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+        </svg>
+        <span class="label">32px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="16" height="16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <clipPath id="sq5d"><rect width="64" height="64" rx="14"/></clipPath>
+          <rect width="64" height="64" rx="14" fill="#1c1917"/>
+          <polygon points="0,64 64,0 64,64" fill="#292524" clip-path="url(#sq5d)"/>
+          <text x="32" y="44" text-anchor="middle" font-family="-apple-system,sans-serif" font-weight="700" font-size="36" fill="#f5f0eb">M</text>
+        </svg>
+        <span class="label">16px</span>
+      </div>
+    </div>
+    <span class="name">5 — Two-Tone Split</span>
+    <span class="desc">Diagonal shadow beneath the M gives subtle depth on a dark base.</span>
+  </div>
+
+  <!-- 6: Warm stone bg, M with amber dot -->
+  <div class="card">
+    <div class="tab-bar">
+      <svg width="14" height="14" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="14" fill="#44403c"/>
+        <text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="38" fill="#fef3c7">M</text>
+        <circle cx="50" cy="14" r="7" fill="#d97706"/>
+      </svg>
+      <span>Ezio Magarotto</span>
+    </div>
+    <div class="sizes">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="48" height="48" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#44403c"/>
+          <text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="38" fill="#fef3c7">M</text>
+          <circle cx="50" cy="14" r="7" fill="#d97706"/>
+        </svg>
+        <span class="label">48px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#44403c"/>
+          <text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="38" fill="#fef3c7">M</text>
+          <circle cx="50" cy="14" r="7" fill="#d97706"/>
+        </svg>
+        <span class="label">32px</span>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <svg width="16" height="16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#44403c"/>
+          <text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="38" fill="#fef3c7">M</text>
+          <circle cx="50" cy="14" r="7" fill="#d97706"/>
+        </svg>
+        <span class="label">16px</span>
+      </div>
+    </div>
+    <span class="name">6 — Warm Stone + Serif</span>
+    <span class="desc">Mid-tone stone bg, serif M in cream, amber dot accent in the corner.</span>
+  </div>
+
+</div>
+
+<p style="font-size:11px;color:#a8a29e;">Tell me the number you want applied.</p>
+
+</body>
+</html>
